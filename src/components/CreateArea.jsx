@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Add } from "@material-ui/icons";
 import Fab from "@material-ui/core/Fab";
 import Zoom from "@material-ui/core/Zoom";
-import { Button } from "@material-ui/core";
 
 function CreateArea(props) {
   const [note, setNote] = useState({
